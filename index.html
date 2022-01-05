@@ -1,0 +1,218 @@
+
+<div class="container"></div>
+<header class="header">
+    
+        <h1 id="title" class="text-center"> Fight Club Survey Form</h1>
+        <p id="description" class="description text-center">Thank you for taking time to complete this form about your experience in our club,
+         this would only take a few minutes</p>
+
+         <link rel="stylesheet"
+href="surveyformmm.css">
+</header>
+<body>
+     <main>
+        <form id="survey-form">
+            <div class="form-group">
+                <label id="name-label" for="name">Name</label>
+                <input
+                type="text"
+                name="name"
+                id="name"
+                class="form-control"
+                placeholder="Enter Your Name" required
+                />
+                </div>
+
+            <div class="form-group"></div>
+            <label id="email-label" for="email">Email</label>
+            <input
+            type="text"
+            name="email"
+            id="email"
+            class="form-control"
+            placeholder="Enter Your Email" required
+            />
+            </div>
+
+            <div class="form-group">
+                <label id="number-label" for="number">Age</label>
+                <input
+                type="text"
+                name="age"
+                id="number"
+                class="form-control"
+                placeholder="Enter Your Current Age" optional
+                min="15"
+                max="99"
+                />
+                </div>
+
+            <div class="form-group">
+                <p>Which option describes your current role?</p>
+                <select id="dropdown" name="role" class="form-control" required>
+                    <option disabled selected value>Select Current Role</option>
+                    <option value="student">Student</option>
+                    <option value="worker">Full Time Work</option>
+                    <option value="part-worker">Part Time Worker</option>
+                    <option value="preferNo">Prefer Not To Say</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <p>Would you recommend fight club to a friend?</p>
+                <label>
+                    <input
+                    name="user-recommendation"
+                    type="radio"
+                    class="radio-input"
+                    value="definitely"
+                    checked/>Definitely</label><br>
+
+                <label> 
+
+                    <input
+                    name="user-recommendation"
+                    type="radio"
+                    class="radio-input"
+                    value="Maybe"/>Maybe </label><br>
+
+                    <label> 
+                        <input
+                        name="user-recommendation"
+                        type="radio"
+                        class="radio-input"
+                        value="not-sure"/>Not sure</label> <br>
+
+                        <label>
+                            <input
+                            name="user-recommendation"
+                            type="radio"
+                            class="radio-input"
+                            value="definitely not"/>Definitely not</label>             
+            </div>
+            <div>
+                <div class="form-group">
+                    <p> What did you enjoy most at fight club?</p>
+                    <select id="dropdown" name="favorite-feature" class="form-control" required>
+                        <option disabled selected value>Select Your Favorite Feature</option>
+                        <option value="music">The Music</option>
+                        <option value="lessons">The Fight Lessons</option>
+                        <option value="people">The People</option>
+                        <option value="food">The Food</option>
+                        <option value="other">Other</option>
+                    </select>
+            </div>
+            <div>
+                <div class="form-group">
+                    <p>Which aspects would you make changes to? <span class="aspects"> (Check all that apply)</span> </p>
+                    <label>
+                        <input
+                        name="changes"
+                        value="training-methods"
+                        type="checkbox"
+                        class="input-checkbox"/>Training Methods
+                    </label>
+                    <br>
+                    <label>
+                        <input
+                        name="changes"
+                        value="training-gear"
+                        type="checkbox"
+                        class="input-checkbox"/>Training Gear
+                    </label>
+                    <br>
+                    <label>
+                        <input
+                        name="changes"
+                        value="lighting"
+                        type="checkbox"
+                        class="input-checkbox"/>Lighting
+                    </label>
+                    <br>
+                    <label>
+                        <input
+                        name="changes"
+                        value="lessons"
+                        type="checkbox"
+                        class="input-checkbox"/>Lessons
+                    </label>
+                    <br>
+                    <label>
+                        <input
+                        name="changes"
+                        value="equipment"
+                        type="checkbox"
+                        class="input-checkbox"/>Equipment
+                    </label>
+                    <br>
+                    <label>
+                        <input
+                        name="changes"
+                        value="music"
+                        type="checkbox"
+                        class="input-checkbox"/>Music
+                    </label>
+                    <br>
+                    <label>
+                        <input
+                        name="changes"
+                        value="floor-arrangement"
+                        type="checkbox"
+                        class="input-checkbox"/>Floor Arrangement
+                    </label>
+                    <br>
+                    <label>
+                        <input
+                        name="changes"
+                        value="videos"
+                        type="checkbox"
+                        class="input-checkbox"/>Videos
+                    </label>
+                    <br>
+                    <label>
+                        <input
+                        name="changes"
+                        value="opening-time"
+                        type="checkbox"
+                        class="input-checkbox"/>Opening Time
+                    </label>
+                    <br>
+                    <label>
+                        <input
+                        name="changes"
+                        value="closing-time"
+                        type="checkbox"
+                        class="input-checkbox"/>Closing Time
+                    </label>
+                    <br>
+                    <label>
+                        <input
+                        name="changes"
+                        value="medical-team"
+                        type="checkbox"
+                        class="input-checkbox"/>Medical Team
+                    </label>
+                    </div>
+                    <div>
+                        <div class="form-group">
+                            <p>Any comments or suggestions?</p>
+                            <textarea
+                            id="comments"
+                            class="input-textarea"
+                            name="comment"
+                            placeholder="Kindly leave your comment here..."></textarea>
+                    </div>
+                    <div>
+                        <div class="form-group">
+                            <button type="submit" id="submit"
+                            class="submit-button">Submit</button>
+                    </div>
+
+
+            </div>
+
+
+        </form>
+        
+        </main>
+    </body>
